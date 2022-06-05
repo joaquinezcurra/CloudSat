@@ -122,37 +122,8 @@ FILE is a CloudSat or Aqua MODIS HDF-EOS2 file, or a CALIPSO HDF4 file.
 
 __________________________________________________________
 
+# Color Maps
+
 ccplot -c calipso.cmap -x 11000..13000 -y 0..25000 -o out.png calipso532
 
 ccplot -c cloudsat-reflectivity-III.cmap -x 11000..13000 -y 0..25000 -o OUT1.png cloudsat-reflec
-
-ccplot -c cloudsat-reflectivity-III.cmap -r 1 -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-ccplot -c cloudsat-reflectivity-III.cmap -r 20 -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-# cambiar el valor de R no modifica el resultado visualmente
-
-__________________________________________________________
-
-# Color Maps
-
-ccplot -c cloudsat-reflectivity.cmap -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-ccplot -c cloudsat-reflectivity-I.cmap -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-ccplot -c cloudsat-reflectivity-II.cmap -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-ccplot -c cloudsat-reflectivity-III.cmap -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-ccplot -c cloudsat-reflectivity-IV.cmap -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-ccplot -c cloudsat-reflectivity-V.cmap -o OUT1.png cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-
-
-__________________________________________________________
-
-ccplot -c cloudsat-reflectivity-III.cmap -o OUT1.png -a 28.0 cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-# -a es el ratio de altura anchura. 14 es 1:1. 7 es el doble de largo. 28 es el doble de alto
-
-ccplot -c cloudsat-reflectivity-III.cmap -o OUT1.png -d 900 cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-ccplot -c cloudsat-reflectivity-III.cmap -o OUT1.png -d 600 cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
-ccplot -c cloudsat-reflectivity-III.cmap -o OUT1.png -d 100 cloudsat-reflec /Users/joaquinx/Documents/ART1/Produktion/Cloudsat/ccplot\ processing/2022/2006255045242_01993_CS_TC-ATL-06L-FLORENCE_GRANULE/2006255045242_01993_CS_2B-GEOPROF_GRANULE_P1_R05_E02_F00_ATL-06L\:FLORENCE.hdf
